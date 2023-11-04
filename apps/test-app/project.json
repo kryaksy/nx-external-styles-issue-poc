@@ -16,7 +16,14 @@
         "main": "apps/test-app/src/main.tsx",
         "tsConfig": "apps/test-app/tsconfig.app.json",
         "assets": ["apps/test-app/src/favicon.ico", "apps/test-app/src/assets"],
-        "styles": ["apps/test-app/src/styles.less"],
+        "styles": [
+          "apps/test-app/src/styles.less",
+          {
+            "input": "libs/shared/src/styles/themes/dark.less",
+            "inject": false,
+            "bundleName": "assets/styles/themes/dark"
+          }
+        ],
         "scripts": [],
         "isolatedConfig": true,
         "webpackConfig": "apps/test-app/webpack.config.js"
