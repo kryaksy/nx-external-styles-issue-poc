@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/styles/themes/dark.css","mappings":"AAAA;EACE;AACF","sources":["webpack:///../../shared/src/styles/themes/dark.less"],"sourcesContent":[":root {\n  --foo: red;\n}\n"],"names":[],"sourceRoot":""}
