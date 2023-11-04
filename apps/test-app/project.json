@@ -19,7 +19,7 @@
         "styles": [
           "apps/test-app/src/styles.less",
           {
-            "input": "libs/shared/src/styles/themes/dark.less",
+            "input": "shared/src/styles/themes/dark.less",
             "inject": false,
             "bundleName": "assets/styles/themes/dark"
           }
